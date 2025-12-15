@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+
+
+.gruppo-regular {
+  font-family: "Gruppo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.postList{
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+    /* width: 639px; */
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    max-height: 900px;
+    height: 100%; 
+    
+
+}
+
+
+
+
+.filtersDiv{
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 10px;
+    border: 2px solid white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 806px;
+    width: 603px;
+    text-align: center;
+    align-items: center;
+}
+
+.filtersP{
+    font-family: "Gruppo", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+.filtrationTypeP{
+    font-family: "Gruppo", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.tagsFilter{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+.searchDiv{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: black;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    gap: 5px;
+    align-items: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    
+}
+input{
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 20px;
+    font-family: "Gruppo", sans-serif;
+    height: 27px;
+    border: 2px solid white;
+}
+.searchP{
+    font-size: 20px;
+    font-family: "Gruppo", sans-serif;
+    color: white;
+}
+.popularTagsDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 483px;
+    padding: 10px;
+    gap: 10px;
+    
+}
+button{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    gap: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: 1.5px solid white;
+    white-space: nowrap;
+    font-family: 'Gruppo', sans-serif;
+    font-size: 20px;
+}
+.likesFilter{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.postCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    background-color: rgba(42, 29, 29, 0.5);
+    border: solid 2px white;
+    border-radius: 20px;   
+ 
+}
+
+.postName{
+    width: 100%;
+    border-bottom: solid 2px white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 28px;
+    font-family: 'Gruppo', sans-serif;
+    text-align: center;
+}
+
+.postImg{
+    width: 600px;
+    height: 600px;
+}
+
+.postInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-top: solid 2px white;
+}
+
+.postTheme{
+    font-size: 24px;
+    font-family: 'Gruppo', sans-serif;
+    color: white;
+}
+
+.postDescription{
+    font-size: 20px;
+    font-family: 'Gruppo', sans-serif;
+    color: white;
+}
+
+.postInteractions{
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 5px 15px 5px;
+    border-top: solid 2px rgb(102, 102, 102);
+    border-bottom: solid 2px rgb(102, 102, 102);
+}
+
+.postTags{
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5px;
+    padding: 10px 5px 10px 5px;
+
+}
+.postSingleTag{
+    font-family: 'Gruppo', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+button{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    gap: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: 1.5px solid white;
+    white-space: nowrap;
+    font-family: 'Gruppo', sans-serif;
+    font-size: 20px;
+}
+input{
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 20px;
+    font-family: "Gruppo", sans-serif;
+    height: 27px;
+    border: 2px solid white;
+    color: white;
+}
+

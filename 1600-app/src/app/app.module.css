@@ -1,0 +1,11 @@
+.mainDiv{
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: auto  auto; 
+    
+    
+ 
+}
+body{
+    overflow: hidden;
+}

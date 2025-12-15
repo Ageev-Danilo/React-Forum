@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+.gruppo-regular {
+  font-family: "Gruppo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+footer{
+     display: flex;
+    flex-direction: row; 
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+     /* height: 5vh;   */
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(42, 29, 29);
+    border-top: solid  rgb(158, 151, 151) 3px;
+}
+footer button{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    gap: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: 1.5px solid white;
+    white-space: nowrap;
+    font-family: 'Gruppo', sans-serif;
+    font-size: 14px;
+}
+.dateAndLinks{
+    grid-column: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: min-content;
+    height: min-content;
+    gap: 25px;
+}
+.copyrightButton{
+    grid-column: 2;
+}

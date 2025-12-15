@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+.gruppo-regular {
+  font-family: "Gruppo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    
+    display: flex;
+    justify-content: space-between;
+   
+   
+    
+
+    /* display: flex; */
+    /* flex-direction: row; */
+
+    /* height: 5vh;   */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(42, 29, 29);
+    border-bottom: solid  rgb(158, 151, 151) 3px;
+    align-items: center;
+    
+}
+header button{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    gap: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: 1.5px solid white;
+    white-space: nowrap;
+    font-family: 'Gruppo', sans-serif;
+    font-size: 14px;
+}
+
+
+.headerIconAndButtons{
+    display: grid;
+    grid-column: 2;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 25px;
+    /* display: flex; */
+    /* flex-direction: row; */
+     width: min-content; 
+     height: min-content; 
+    align-items: center;
+    justify-content: center;
+
+
+}
+.headerLinks{
+    display: grid;
+    grid-column: 1;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 25px;
+
+    /* display: flex;
+    flex-direction: row; */
+    /* gap: 25px; */
+    width: min-content;
+    height: min-content;
+    align-items: center;
+
+}
+#mainButton{
+    font-size: 24px;
+    grid-column: 1;
+}
+.headerLinks button{
+    grid-row: 1;
+}
+
+.headerIconAndButtons img{
+    grid-column: 2;
+}
